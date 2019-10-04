@@ -21,5 +21,6 @@ $exeQuery = mysqli_query($con, $query) ;
      echo(json_encode(array('code' =>0, 'message' => 'Error saving')));
    }
 
+echo json_encode;
 
  ?>
